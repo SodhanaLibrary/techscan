@@ -188,7 +188,7 @@ export default class App extends React.Component {
           <div className="col-xs-12 col-sm-6 col-md-8">
             {this.state.profileView && this.profileDisplay &&<div className="user-profile-view__repos_data">
                <div>Public repos : {this.profileDisplay.state.user.public_repos}</div>
-               <div>Blog : <a href="http://airbnb.io" target="_blank">http://airbnb.io</a></div>
+               <div>Blog : <a href={this.profileDisplay.state.user.blog} target="_blank">{this.profileDisplay.state.user.blog}</a></div>
             </div>}
             <div className="repo-list">
                 {this.state.data && this.state.data.map((item) =>
