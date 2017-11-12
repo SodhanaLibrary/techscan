@@ -1,0 +1,107 @@
+.left-nav-menu {
+  display: block;
+}
+
+.mini-submenu{
+  display:none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;
+  /*position: relative;*/
+  width: 42px;
+
+}
+
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.repo-list__item {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+
+.repo-list:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.repo-list__item-tag {
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  margin: 0 0.5em 0.5em 0;
+  white-space: nowrap;
+  background-color: #f1f8ff;
+  border-radius: 3px;
+}
+
+.repo-list__item__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.repo-list__item__avatar-img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.repo-list__item__avatar-name {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.repo-list__item__avatar-name a {
+  color: #555;
+}
+
+.list-group-item__selected, .list-group-item__selected:focus{
+  background-color: #ddd;
+}
+
+.header-nav-search {
+  width: 301px;
+  margin-right: 70px;
+  margin-top: 7px;
+}
+
+.user-profile-view {
+  border: 1px solid #ccc;
+}
+
+.user-profile-view__img {
+  width: 100%;
+}
+
+.user-profile-view__desc {
+  padding: 0 10px 10px 10px;
+}
+
+.user-profile-view__repos_data {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 120%;
+  line-height: 150%
+}

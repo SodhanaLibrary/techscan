@@ -27,7 +27,7 @@ loaders.push({
 
 module.exports = {
 	entry: [
-		'./src/date-time-picker4/index.js'
+		'./src/index.js'
 	],
 	output: {
 		path: path.join(__dirname, 'public/date-time-picker4'),
